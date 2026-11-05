@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 560" width="840" height="560">
+<title>One reading, two clocks</title>
+<desc>The late reading belongs at second 4 and was received at second 23. A reading measured at second 10 arrived at second 11.</desc>
+<rect width="840" height="560" rx="24" fill="#102a3b"/>
+<g font-family="DejaVu Sans,sans-serif">
+<text x="50" y="62" fill="#f5f8fc" font-size="37" font-weight="bold">One reading, two clocks</text>
+<text x="50" y="103" fill="#cde0ea" font-size="25">Same 25 second timeline</text>
+<g fill="#f5f8fc" font-size="26" font-weight="bold"><text x="50" y="175">Source time</text><text x="50" y="363">Collector receive time</text></g>
+<g stroke="#8eacbc" stroke-width="3"><path d="M100 215h650M100 410h650"/><path d="M100 203v24m650-24v24M100 398v24m650-24v24"/></g>
+<g fill="#cde0ea" font-size="23" text-anchor="middle"><text x="100" y="260">0 s</text><text x="750" y="260">25 s</text><text x="100" y="457">0 s</text><text x="765" y="457" font-size="20">25 s</text></g>
+<path d="M204 215C220 281 675 293 698 410" fill="none" stroke="#ffd580" stroke-width="5" stroke-dasharray="12 8"/>
+<path d="M360 215L386 410" stroke="#60ddcb" stroke-width="5"/>
+<g fill="#ffd580"><circle cx="204" cy="215" r="10"/><circle cx="698" cy="410" r="10"/><text x="204" y="260" font-size="25" text-anchor="middle">4 s</text><text x="698" y="457" font-size="25" text-anchor="middle">23 s</text></g>
+<g fill="#60ddcb"><circle cx="360" cy="215" r="10"/><circle cx="386" cy="410" r="10"/><text x="368" y="190" font-size="25">10 s</text><text x="386" y="457" font-size="25" text-anchor="middle">11 s</text></g>
+<text x="50" y="515" fill="#ffd580" font-size="27" font-weight="bold">The 26 °C reading arrived 19 seconds later.</text>
+</g></svg>

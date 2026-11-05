@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 580" width="840" height="580">
+<title>What the late sample changes</title>
+<desc>Before arrival: 13 seconds good, 4 unknown, 4 bad, 4 uncertain. After arrival: 17 seconds good, zero unknown, 4 bad, 4 uncertain.</desc>
+<defs><pattern id="gap" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#dae6ee"/><path d="M0 10L10 0" stroke="#536775" stroke-width="2"/></pattern></defs>
+<rect width="840" height="580" rx="24" fill="#f2f7fa"/>
+<g font-family="DejaVu Sans,sans-serif" fill="#112c40">
+<text x="40" y="66" font-size="37" font-weight="bold">What the late sample changes</text>
+<text x="40" y="110" font-size="25">Source time in seconds. Maximum hold: 6 s.</text>
+<text x="60" y="177" font-size="27" font-weight="bold">Before: 13 s good (52%)</text>
+<text x="60" y="344" font-size="27" font-weight="bold">After: 17 s good (68%)</text>
+<g stroke="#f2f7fa" stroke-width="2">
+<rect x="70" y="197" width="168" height="66" fill="#9fdfcf"/>
+<rect x="238" y="197" width="112" height="66" fill="url(#gap)"/>
+<rect x="350" y="197" width="112" height="66" fill="#9fdfcf"/>
+<rect x="462" y="197" width="112" height="66" fill="#f8b2ae"/>
+<rect x="574" y="197" width="84" height="66" fill="#9fdfcf"/>
+<rect x="658" y="197" width="112" height="66" fill="#ffdda0"/>
+<rect x="70" y="363" width="112" height="66" fill="#9fdfcf"/>
+<rect x="182" y="363" width="168" height="66" fill="#9fdfcf"/>
+<rect x="350" y="363" width="112" height="66" fill="#9fdfcf"/>
+<rect x="462" y="363" width="112" height="66" fill="#f8b2ae"/>
+<rect x="574" y="363" width="84" height="66" fill="#9fdfcf"/>
+<rect x="658" y="363" width="112" height="66" fill="#ffdda0"/>
+</g>
+<g text-anchor="middle" font-size="22" font-weight="bold">
+<text x="154" y="239">20 °C</text><rect x="248" y="210" width="92" height="34" rx="4" fill="#f2f7fa"/><text x="294" y="235" font-size="17">Unknown</text><text x="406" y="239">30 °C</text><text x="518" y="239">Bad</text><text x="616" y="239">40 °C</text><text x="714" y="239" font-size="17">Uncertain</text>
+<text x="126" y="404">20 °C</text><text x="266" y="404">26 °C</text><text x="406" y="404">30 °C</text><text x="518" y="404">Bad</text><text x="616" y="404">40 °C</text><text x="714" y="404" font-size="17">Uncertain</text>
+</g>
+<g text-anchor="middle" font-size="23">
+<text x="70" y="292">0</text><text x="238" y="292">6</text><text x="350" y="292">10</text><text x="462" y="292">14</text><text x="574" y="292">18</text><text x="658" y="292">21</text><text x="770" y="292">25</text>
+<text x="70" y="461">0</text><text x="182" y="461">4</text><text x="350" y="461">10</text><text x="462" y="461">14</text><text x="574" y="461">18</text><text x="658" y="461">21</text><text x="770" y="461">25</text>
+</g>
+<text x="60" y="533" font-size="26" font-weight="bold">Quality warnings stay visible after the update.</text>
+</g></svg>
